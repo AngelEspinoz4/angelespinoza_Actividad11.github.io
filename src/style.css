@@ -1,0 +1,72 @@
+a {
+  font-weight: 500;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-decoration: inherit;
+}
+a:hover {
+  color: #634c39;
+}
+
+body {
+  background-color: white;
+  color: #333;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+  text-align: justify;
+}
+.card:hover {
+  scale: 1.01;
+}
+a:hover {
+  cursor: pointer;
+}
+.busqueda {
+  outline: none;
+  width: 300px;
+  height: 35px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  border: 1.5px solid;
+  font-weight: bold;
+  border-color: #9700dd;
+}
+footer {
+  background-color: #535bf2;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+    cursor: pointer;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

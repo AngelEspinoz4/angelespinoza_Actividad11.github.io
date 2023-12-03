@@ -4,7 +4,7 @@
       <input
         type="text"
         class="busqueda"
-        placeholder="Buscar receta"
+        placeholder="Buscar un País"
         v-model="search"
         @keyup.enter="searchData"
       />
